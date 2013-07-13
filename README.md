@@ -17,7 +17,7 @@ Jquery 1.6+
 
 Simply create a div with class name "bootstrap-force" and write all the bootstrap markup within this Div.
 
-`<div class = 'bootstrap-force'><apex:includeScript value="{!JSENCODE(URLFOR($Resource.JQuery,'1.8.3/jquery-1.8.3.min.js'))}" />`
+`<apex:includeScript value="{!JSENCODE(URLFOR($Resource.JQuery,'1.8.3/jquery-1.8.3.min.js'))}" />`
 <br>
 `<apex:includeScript value="{!JSENCODE(URLFOR($Resource.bootstrap,'bootstrap/js/bootstrap-button.js'))}"/>`
 <br>`<apex:includeScript value="{!JSENCODE(URLFOR($Resource.bootstrap,'bootstrap/js/bootstrap-tab.js'))}"/>`
